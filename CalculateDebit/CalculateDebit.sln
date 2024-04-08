@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patholab_Common", "..\..\Patholab_Common\Patholab_Common.csproj", "{A60242B9-5382-4A90-91F8-F390DA706AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateDebit", "CalculateDebit.csproj", "{AF167ABB-B4D7-40ED-AE37-6A2F709186B6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A60242B9-5382-4A90-91F8-F390DA706AE7} = {A60242B9-5382-4A90-91F8-F390DA706AE7}
+		{654B85EA-0ADD-42AD-AA0A-FAE4CB001F97} = {654B85EA-0ADD-42AD-AA0A-FAE4CB001F97}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patholab_DAL_V1", "..\..\Patholab_DAL_V1\Patholab_DAL_V1\Patholab_DAL_V1.csproj", "{654B85EA-0ADD-42AD-AA0A-FAE4CB001F97}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A60242B9-5382-4A90-91F8-F390DA706AE7} = {A60242B9-5382-4A90-91F8-F390DA706AE7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Run Calculate Debit", "..\Run Calculate Debit\Run Calculate Debit.csproj", "{E25570D1-EA3F-4B04-9135-3ACB6DF7C615}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A60242B9-5382-4A90-91F8-F390DA706AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60242B9-5382-4A90-91F8-F390DA706AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60242B9-5382-4A90-91F8-F390DA706AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60242B9-5382-4A90-91F8-F390DA706AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF167ABB-B4D7-40ED-AE37-6A2F709186B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF167ABB-B4D7-40ED-AE37-6A2F709186B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF167ABB-B4D7-40ED-AE37-6A2F709186B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF167ABB-B4D7-40ED-AE37-6A2F709186B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654B85EA-0ADD-42AD-AA0A-FAE4CB001F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654B85EA-0ADD-42AD-AA0A-FAE4CB001F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654B85EA-0ADD-42AD-AA0A-FAE4CB001F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654B85EA-0ADD-42AD-AA0A-FAE4CB001F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25570D1-EA3F-4B04-9135-3ACB6DF7C615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25570D1-EA3F-4B04-9135-3ACB6DF7C615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25570D1-EA3F-4B04-9135-3ACB6DF7C615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25570D1-EA3F-4B04-9135-3ACB6DF7C615}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
